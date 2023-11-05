@@ -1,5 +1,3 @@
-// const flavors = [vanilla,vanilla,vanilla,strawberry,coffee,coffee];
-// flavors.forEach(item => console.log(`you ordered a ${item} today.`))
 
 
 const froyoMenu = {
@@ -22,6 +20,9 @@ const flavCounts = {};
 const froyoMenuArr = ["vanilla","vanilla","vanilla","strawberry","coffee","coffee"];
 froyoMenuArr.forEach(function(i) { flavCounts[i] = (flavCounts[i] || 0) + 1; });
 console.log(flavCounts);
+
+
+// below is the code for the button that displays the menu // 
 
 let menu =  document.getElementsByClassName("menu")[0]
 document.getElementsByClassName("click")[0].onclick =function() {
